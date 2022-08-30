@@ -1,7 +1,7 @@
 // React Hooks
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { PersistGate } from 'redux-persist/integration/react';
 import { persistStore } from 'redux-persist';
 
@@ -20,12 +20,12 @@ let persistor = persistStore(store);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<>
-		<BrowserRouter>
+		<HashRouter>
 			<Provider store={ store }>
 				<PersistGate loading={ null } persistor={ persistor }>
 					<App />
 				</PersistGate>
 			</Provider>
-		</BrowserRouter>
+		</HashRouter>
 	</>
 );
