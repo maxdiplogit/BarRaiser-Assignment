@@ -1,15 +1,12 @@
-span {
-    margin: 10px;
-    color: aliceblue;
-    background-color: cornflowerblue;
+.hierarchy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-p {
-    margin-left: 100px;
-}
-
-.root {
-    background-color: antiquewhite;
-    color: blueviolet;
-    border-radius: 100%;
+h2 {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 70px;
 }

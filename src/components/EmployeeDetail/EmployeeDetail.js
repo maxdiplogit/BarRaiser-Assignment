@@ -44,7 +44,7 @@ const EmployeeDetail = () => {
 
 
     return (
-        <>
+        <div className={ classes.details }>
             <h2>{ employeeName }'s Details</h2>
             <StyledTableContainer component={ Paper }>
                 <Table aria-label='simple table'>
@@ -72,7 +72,7 @@ const EmployeeDetail = () => {
                     </TableHead>
                 </Table>
             </StyledTableContainer>
-        </>
+        </div>
     );
 };
 

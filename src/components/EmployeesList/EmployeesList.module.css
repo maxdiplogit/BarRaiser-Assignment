@@ -1,0 +1,39 @@
+.list {
+    display: flex;
+    margin: 0.1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    padding: 7px;
+    border: 2px solid rgb(126, 212, 198);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+h2 {
+    color: rgb(233, 197, 144);
+    border: 3px dotted rgb(126, 212, 198);
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+.actions {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.search {
+    color: rgb(8, 120, 185);
+}
+
+.filters {
+    color: rgb(8, 120, 185);
+}

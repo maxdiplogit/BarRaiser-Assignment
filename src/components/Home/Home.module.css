@@ -1,0 +1,40 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 4rem;
+    padding: 20px;
+    border: 5px solid peachpuff;
+    border-radius: 2rem;
+}
+
+h6 {
+    color: rgb(196, 172, 106);
+
+}
+
+.nav {
+    border: 0.124rem dotted peachpuff;
+    border-radius: 0.3rem;
+    padding: 10px;
+}
+
+.links {
+    color: rgb(94, 168, 187);
+}
+
+.link {
+    color: rgb(94, 168, 187);
+    text-decoration: underline;
+    padding-left: 1.2rem;
+}
+
+.link:hover {
+    color: whitesmoke;
+}

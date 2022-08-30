@@ -69,10 +69,10 @@ const EmployeeHierarchy = () => {
     
 
     return (
-        <>
+        <div className={ classes.hierarchy }>
             <h2>Employees Hierarchy</h2>
             <TreeData data={ tempTreeData } />
-        </>
+        </div>
     );
 };
 
